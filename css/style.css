@@ -2,11 +2,69 @@ body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.navbar {
+    background-color: rgb(112,203,244);
+    border-color: transparent;
+}
+
+.navbar .nav li a {
+    color: rgb(239,0,0);
+}
+
+.navbar .navbar-header a {
+    color: rgb(239,0,0);
+}
+
 .header-image {
     display: block;
     width: 100%;
     text-align: center;
     background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.section-1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(194,230,250);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.section-2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255,255,255);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.section-3 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: rgb(255,255,255);
+    background-color: rgb(9,42,94);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.section-4 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255,255,255);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -35,6 +93,8 @@ body {
 
 .featurette {
     overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .featurette-image.pull-left {

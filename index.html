@@ -24,6 +24,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Prevents content being hidden by navbar when using on page links -->
+    <script>
+    var shiftWindow = function() { scrollBy(0, -50) };
+    window.addEventListener("hashchange", shiftWindow);
+    function load() { if (window.location.hash) shiftWindow(); }
+    </script>
+
 </head>
 
 <body>
@@ -74,53 +81,74 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
 
-        <hr class="featurette-divider">
+            <!-- First Featurette -->
+    <div class="section-1">
 
-        <!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">About
-                <span class="text-muted">Explain the scenario, ideas, tips, advice</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="container">
+
+            <div class="featurette" id="about">
+                <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+                <h2 class="featurette-heading">About
+                    <span class="text-muted">Explain the scenario, ideas, tips, advice</span>
+                </h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+
         </div>
 
-        <hr class="featurette-divider">
+    </div>
 
         <!-- Second Featurette -->
-        <div class="featurette" id="tui">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">TUI
-                <span class="text-muted">Our Involvement</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <div class="section-2">
+
+        <div class="container">
+
+            <div class="featurette" id="tui">
+                <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+                <h2 class="featurette-heading">TUI
+                    <span class="text-muted">Our Involvement</span>
+                </h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+
         </div>
 
-        <hr class="featurette-divider">
+    </div>
 
         <!-- Third Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">About the day
-                <span class="text-muted">Where, when, food, social</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <div class="section-3">
+
+        <div class="container">
+
+            <div class="featurette" id="details">
+                <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+                <h2 class="featurette-heading">About the day
+                    <span class="text-muted">Where, when, food, social</span>
+                </h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+
         </div>
 
-        <hr class="featurette-divider">
+    </div>
 
         <!-- Fourth Featurette -->
-        <div class="featurette" id="register">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Register
-                <span class="text-muted">Link to registration page</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <div class="section-4">
+
+        <div class="container">
+
+            <div class="featurette" id="register">
+                <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+                <h2 class="featurette-heading">Register
+                    <span class="text-muted">Link to registration page</span>
+                </h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+
         </div>
 
-        <hr class="featurette-divider">
+    </div>
 
         <!-- Footer -->
         <footer>
@@ -131,7 +159,6 @@
             </div>
         </footer>
 
-    </div>
     <!-- /.container -->
 
     <!-- jQuery -->
