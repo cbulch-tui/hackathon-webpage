@@ -8,11 +8,40 @@ body {
 }
 
 .navbar .nav li a {
-    color: rgb(239,0,0);
+    color: white;
+    font-family: tuitype;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .navbar .navbar-header a {
-    color: rgb(239,0,0);
+    color: white;
+    font-family: tuitype;
+    padding-left: 8em;
+}
+
+.navbar .navbar-header {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.navbar .navbar-brand a {
+    color: white;
+    font-family: tuitype;
+}
+
+.navbar .bg-svg {
+    background-image: url(../img/tui_group_logo.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 0;
+    padding: 0;
+    padding-bottom: 3.5em;
+    width: 7em;
+}
+
+.navbar-toggle {
+    margin-right: 0;
 }
 
 .header-image {
@@ -229,4 +258,42 @@ footer {
         margin-bottom: 10px;
         margin-left: 0;
     }
+
+    .navbar .navbar-header a {
+        visibility: hidden;
+        padding-left: 0em;
+    }
+
+}
+
+@font-face {
+  font-family: 'tuitypelight';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/tuitype-light/tuitypelt-webfont.eot");
+  src: url("../fonts/tuitype-light/tuitypelt-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/tuitype-light/tuitypelt-webfont.ttf") format("truetype"), url("../fonts/tuitype-light/tuitypelt-webfont.woff") format("woff"), url("../fonts/tuitype-light/tuitypelt-webfont.svg#tuitypelight") format("svg");
+}
+
+@font-face {
+  font-family: 'tuitypelight';
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/tuitype-light-bold/tuitypeltbd-webfont.eot");
+  src: url("../fonts/tuitype-light-bold/tuitypeltbd-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/tuitype-light-bold/tuitypeltbd-webfont.ttf") format("truetype"), url("../fonts/tuitype-light-bold/tuitypeltbd-webfont.woff") format("woff"), url("../fonts/tuitype-light-bold/tuitypeltbd-webfont.svg#tuitypelightbold") format("svg");
+}
+
+@font-face {
+  font-family: 'tuitype';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/tuitype/tuitype-webfont.eot");
+  src: url("../fonts/tuitype/tuitype-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/tuitype/tuitype-webfont.ttf") format("truetype"), url("../fonts/tuitype/tuitype-webfont.woff") format("woff"), url("../fonts/tuitype/tuitype-webfont.svg#tuityperegular") format("svg");
+}
+
+@font-face {
+  font-family: 'tuitype';
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/tuitype-bold/tuitypebd-webfont.eot");
+  src: url("../fonts/tuitype-bold/tuitypebd-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/tuitype-bold/tuitypebd-webfont.ttf") format("truetype"), url("../fonts/tuitype-bold/tuitypebd-webfont.woff") format("woff"), url("../fonts/tuitype-bold/tuitypebd-webfont.svg#tuitypebold") format("svg");
 }

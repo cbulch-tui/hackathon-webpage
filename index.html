@@ -26,9 +26,8 @@
 
     <!-- Prevents content being hidden by navbar when using on page links -->
     <script>
-    var shiftWindow = function() { scrollBy(0, -50) };
-    window.addEventListener("hashchange", shiftWindow);
-    function load() { if (window.location.hash) shiftWindow(); }
+        var shiftWindow = function() { scrollBy(0, -50) };
+        window.addEventListener("hashchange", shiftWindow);
     </script>
 
 </head>
@@ -40,28 +39,31 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
+                <a class="navbar-brand" href="#">TUI HACKATHON</a>
+
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">TUI Hackathon</a>
+
+                <figure><div class="bg-svg"></div></figure>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#about">ABOUT</a>
                     </li>
                     <li>
                         <a href="#tui">TUI</a>
                     </li>
                     <li>
-                        <a href="#details">Details</a>
+                        <a href="#details">DETAILS</a>
                     </li>
                     <li>
-                        <a href="#register">Register</a>
+                        <a href="#register">REGISTER</a>
                     </li>
                 </ul>
             </div>
@@ -82,7 +84,7 @@
 
     <!-- Page Content -->
 
-            <!-- First Featurette -->
+    <!-- First Featurette -->
     <div class="section-1">
 
         <div class="container">
@@ -99,7 +101,7 @@
 
     </div>
 
-        <!-- Second Featurette -->
+    <!-- Second Featurette -->
     <div class="section-2">
 
         <div class="container">
@@ -133,7 +135,7 @@
 
     </div>
 
-        <!-- Fourth Featurette -->
+    <!-- Fourth Featurette -->
     <div class="section-4">
 
         <div class="container">
