@@ -12,6 +12,11 @@ body {
     font-family: tuitype;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    
+}
+.navbar .nav li a:hover {
+    color:RGB(115,115,115);
+  
 }
 
 .navbar .navbar-header a {
